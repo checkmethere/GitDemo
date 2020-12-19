@@ -20,6 +20,7 @@
     echo view('templates/header', $data);
     echo view('pages/'.$page, $data);
     echo view('templates/footer', $data);
+            //This comment does nothing
 }
     }
 
